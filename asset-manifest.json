@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ville-kuusela.github.io/static/css/main.c87015c7.css",
-    "main.js": "/ville-kuusela.github.io/static/js/main.5932d748.js",
+    "main.js": "/ville-kuusela.github.io/static/js/main.5dab4635.js",
     "static/media/scan.gif": "/ville-kuusela.github.io/static/media/scan.a1f225868dbeaa0ae2b9.gif",
     "static/media/compare.png": "/ville-kuusela.github.io/static/media/compare.05e419c647b398fc3598.png",
     "static/media/img.jpg": "/ville-kuusela.github.io/static/media/img.c4083ee87372a8e49c2a.jpg",
@@ -24,10 +24,10 @@
     "static/media/task.jpg": "/ville-kuusela.github.io/static/media/task.676e10b7052f8887728f.jpg",
     "index.html": "/ville-kuusela.github.io/index.html",
     "main.c87015c7.css.map": "/ville-kuusela.github.io/static/css/main.c87015c7.css.map",
-    "main.5932d748.js.map": "/ville-kuusela.github.io/static/js/main.5932d748.js.map"
+    "main.5dab4635.js.map": "/ville-kuusela.github.io/static/js/main.5dab4635.js.map"
   },
   "entrypoints": [
     "static/css/main.c87015c7.css",
-    "static/js/main.5932d748.js"
+    "static/js/main.5dab4635.js"
   ]
 }
