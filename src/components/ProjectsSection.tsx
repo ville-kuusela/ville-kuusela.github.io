@@ -1,4 +1,5 @@
 import { ExternalLink } from "lucide-react";
+import { Badge } from "./ui/badge";
 
 interface Project {
   name: string;
@@ -9,25 +10,11 @@ interface Project {
 
 const projects: Project[] = [
   {
-    name: "DevFlow",
+    name: "Beat Builder",
     description:
-      "An open-source developer productivity tool that tracks coding habits and suggests workflow improvements.",
-    tech: ["React", "TypeScript", "Node.js"],
-    url: "#",
-  },
-  {
-    name: "Markable",
-    description:
-      "A minimal Markdown editor with live preview, built for speed and distraction-free writing.",
-    tech: ["Svelte", "Tailwind CSS"],
-    url: "#",
-  },
-  {
-    name: "API Bench",
-    description:
-      "CLI tool for benchmarking REST API endpoints with detailed latency and throughput reports.",
-    tech: ["Go", "Cobra"],
-    url: "#",
+      "Rumpusekvensserisovellus, jolla voi luoda haluamansa laisia komppeja esimerkiksi soittimien soiton harjoittelun taustalle.",
+    tech: ["Nuxt.js", "Tailwind CSS", "Vercel"],
+    url: "https://beat-builder-online.vercel.app/",
   },
 ];
 
@@ -36,42 +23,51 @@ const ProjectsSection = () => {
     <section>
       <div className="flex items-center gap-2 mb-6">
         <h2 className="text-2xl font-display font-semibold text-foreground">
-          Projects
+          Projektit
         </h2>
       </div>
+
+      <p className="text-sm text-off-black leading-relaxed mb-6">
+        Tässä on esimerkkejä vapaa-ajallani luomistani projekteista.
+      </p>
+
       <div className="grid gap-4">
         {projects.map((project, i) => (
           <div
             key={i}
-            className="p-5 rounded-lg bg-card border border-border hover:border-accent/40 transition-colors"
+            className="p-6 rounded-lg bg-card border border-border bg-white"
           >
             <div className="flex items-start justify-between gap-2">
-              <h3 className="font-body font-semibold text-foreground">
+              <a href={project.url}
+                target="_blank"
+                rel="noopener noreferrer">
+                <h3 className="font-body font-semibold text-off-black hover:text-off-black/80 transition-colors">
                 {project.name}
               </h3>
+              </a>
               {project.url && (
                 <a
                   href={project.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-accent transition-colors shrink-0"
+                  className="text-accent hover:text-accent/80 transition-colors shrink-0"
                   aria-label={`View ${project.name}`}
                 >
-                  <ExternalLink className="w-4 h-4" />
+                  <ExternalLink className="size-5" />
                 </a>
               )}
             </div>
-            <p className="text-sm text-muted-foreground mt-2 leading-relaxed">
+            <p className="text-sm text-off-black mt-2 leading-relaxed">
               {project.description}
             </p>
             <div className="flex flex-wrap gap-2 mt-3">
               {project.tech.map((t) => (
-                <span
+                <Badge
                   key={t}
-                  className="text-xs px-2.5 py-1 rounded-full bg-secondary text-secondary-foreground"
+                  className="text-xs font-medium px-3 py-1"
                 >
                   {t}
-                </span>
+                </Badge>
               ))}
             </div>
           </div>

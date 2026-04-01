@@ -1,61 +1,48 @@
-import avatarImg from "@/assets/avatar.png";
-import { Mail, Github, Linkedin, MapPin } from "lucide-react";
+import myImage from "@/assets/image.jpg";
+import { Mail, Linkedin, MapPin } from "lucide-react";
 
 const ProfileCard = () => {
   return (
     <div className="flex flex-col items-center text-center gap-6">
       <img
-        src={avatarImg}
+        src={myImage}
         alt="Profile photo"
         width={160}
         height={160}
-        className="rounded-full bg-muted w-40 h-40 object-cover"
+        className="rounded-full bg-muted w-40 h-40 object-cover outline outline-accent outline-offset-4"
       />
       <div>
-        <h1 className="text-3xl font-bold font-display text-foreground">
-          John Doe
+        <h1 className="text-3xl font-bold font-display text-off-black">
+          Ville Kuusela
         </h1>
-        <p className="text-muted-foreground mt-1 font-body text-sm tracking-wide uppercase">
-          Full-Stack Developer
+        <p className="text-off-black mt-1 font-body text-sm tracking-wide">
+          Ohjelmistokehittäjä
         </p>
       </div>
 
-      <div className="flex items-center gap-1.5 text-muted-foreground text-sm">
+      <div className="flex items-center gap-1.5 text-off-black text-sm">
         <MapPin className="w-4 h-4" />
-        <span>San Francisco, CA</span>
+        <span>Jyväskylä, Suomi</span>
       </div>
 
-      <div className="flex gap-3">
+      <div className="flex gap-2">
         <a
-          href="mailto:john@example.com"
-          className="p-2.5 rounded-full bg-card text-foreground hover:text-accent transition-colors"
+          href="mailto:villekuusela19@gmail.com"
+          className="p-2.5 rounded-full bg-card text-off-black hover:text-accent transition-colors"
           aria-label="Email"
         >
           <Mail className="w-5 h-5" />
         </a>
         <a
-          href="https://github.com"
+          href="https://www.linkedin.com/in/villekuusela19/"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-2.5 rounded-full bg-card text-foreground hover:text-accent transition-colors"
-          aria-label="GitHub"
-        >
-          <Github className="w-5 h-5" />
-        </a>
-        <a
-          href="https://linkedin.com"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-2.5 rounded-full bg-card text-foreground hover:text-accent transition-colors"
+          className="p-2.5 rounded-full bg-card text-off-black hover:text-accent transition-colors"
           aria-label="LinkedIn"
         >
           <Linkedin className="w-5 h-5" />
         </a>
       </div>
-
-      <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
-        Passionate about building clean, scalable web applications and open-source tools.
-      </p>
     </div>
   );
 };
