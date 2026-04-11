@@ -12,8 +12,8 @@ const projects: Project[] = [
   {
     name: "Beat Builder",
     description:
-      "Rumpusekvensserisovellus, jolla voi luoda haluamansa laisia komppeja esimerkiksi soittimien soiton harjoittelun taustalle.",
-    tech: ["Nuxt.js", "Tailwind CSS", "Vercel"],
+      "Rumpusekvensserisovellus, jolla voi luoda halutunlaisia komppeja esimerkiksi soittimien soiton harjoittelun taustalle.",
+    tech: ["Nuxt", "Tailwind CSS", "Vercel"],
     url: "https://beat-builder-online.vercel.app/",
   },
 ];

@@ -1,4 +1,4 @@
-import myImage from "@/assets/image.jpg";
+import myImage from "@/assets/img-bnw.webp";
 import { Mail, Linkedin, MapPin } from "lucide-react";
 
 const ProfileCard = () => {
@@ -9,7 +9,7 @@ const ProfileCard = () => {
         alt="Profile photo"
         width={160}
         height={160}
-        className="rounded-full bg-muted w-40 h-40 object-cover outline outline-accent outline-offset-4"
+        className="rounded-full bg-muted w-40 h-40 object-cover outline outline-2 outline-accent outline-offset-4"
       />
       <div>
         <h1 className="text-3xl font-bold font-display text-off-black">

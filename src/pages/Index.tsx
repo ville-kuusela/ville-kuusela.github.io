@@ -21,7 +21,7 @@ const Index = () => {
       title: 'Tietojenkäsittelyn tutkinto-ohjelma',
       subtitle: 'Jyväskylän ammattikorkeakoulu',
       period: '2020 - 2024',
-      description: 'Perehdyin opinnoissani monipuoliseen web-sovelluskehitykseen, mitä kautta sain vankan pohjan uralleni. Minut palkittiin stipendillä nopeasta edistyksestäni ja erinomaisista arvosanoistani.'
+      description: 'Perehdyin opinnoissani monipuolisesti web-sovelluskehitykseen, mitä kautta sain vankan perustan uralleni. Minut palkittiin stipendillä nopeasta edistyksestäni ja erinomaisista arvosanoistani.'
     }
   ]
 

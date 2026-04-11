@@ -8,7 +8,7 @@ const AboutSection = () => {
       </div>
       <div className="space-y-4 text-sm text-off-black leading-relaxed">
         <p>
-          Hei! Olen etenkin frontendiin erikoistunut kehittäjä Jyväskylästä. Työkokemukseni ja opintojeni aikana olen kerryttänyt monipuolista osaamista nopeiden ja laadukkaiden verkko- ja mobiilisovellusten luomisesta.
+          Hei! Olen etenkin frontendiin erikoistunut ohjelmistokehittäjä Jyväskylästä. Työkokemukseni ja opintojeni aikana olen kerryttänyt monipuolista osaamista nopeiden ja laadukkaiden verkko- ja mobiilisovellusten luomisesta.
         </p>
         <p>
           Minulla on eniten kokemusta Vuella ja Reactilla kehittämisestä, mukaan lukien Nuxt ja Next.js. Olen perehtynyt myös Laravel-ekosysteemin, jonka kautta olen päässyt sukeltamaan myös backendin ja tietokantojen maailmaan.

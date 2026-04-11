@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 
 const skills = [
-  "Vue", "Nuxt", "React", "React Native", "Next.js", "Typescript", "CSS", "Tailwind CSS", "Storyblok", "Laravel", "PHP", "Shopware"
+  "Vue", "Nuxt", "React", "Next.js", "React Native", "Typescript", "CSS", "Tailwind CSS", "Storyblok CMS", "Shopware", "Laravel", "PHP"
 ];
 
 const SkillsSection = () => {
