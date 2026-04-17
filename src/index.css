@@ -29,3 +29,8 @@
     font-family: var(--font-display);
   }
 }
+
+
+html::selection {
+  @apply bg-accent/30; 
+}

@@ -9,7 +9,7 @@ const ProfileCard = () => {
         alt="Profile photo"
         width={160}
         height={160}
-        className="rounded-full bg-muted w-40 h-40 object-cover outline outline-2 outline-accent outline-offset-4"
+        className="rounded-full bg-muted size-44 object-cover"
       />
       <div>
         <h1 className="text-3xl font-bold font-display text-off-black">

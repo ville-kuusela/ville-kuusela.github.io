@@ -10,6 +10,12 @@ interface Project {
 
 const projects: Project[] = [
   {
+    name: "Sanahuijari",
+    description: "Wordlen kaltainen sananarvauspeli, jossa kirjainvihjeet sisältävät valheita, mikä tekee sanan päättelystä kiinnostavampaa ja haastavampaa.",
+    tech: ["Next.js", "Tailwind CSS", "Vercel"],
+    url: "https://sanahuijari.vercel.app/",
+  },
+  {
     name: "Beat Builder",
     description:
       "Rumpusekvensserisovellus, jolla voi luoda halutunlaisia komppeja esimerkiksi soittimien soiton harjoittelun taustalle.",
@@ -28,7 +34,7 @@ const ProjectsSection = () => {
       </div>
 
       <p className="text-sm text-off-black leading-relaxed mb-6">
-        Tässä on esimerkkejä vapaa-ajallani luomistani projekteista.
+        Tässä on esimerkkejä vapaa-ajalla luomistani projekteista.
       </p>
 
       <div className="grid gap-4">
