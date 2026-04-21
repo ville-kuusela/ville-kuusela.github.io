@@ -1,5 +1,5 @@
 import myImage from "@/assets/img-bnw.webp";
-import { Mail, Linkedin, MapPin } from "lucide-react";
+import { Mail, Linkedin, MapPin, Github } from "lucide-react";
 
 const ProfileCard = () => {
   return (
@@ -41,6 +41,15 @@ const ProfileCard = () => {
           aria-label="LinkedIn"
         >
           <Linkedin className="w-5 h-5" />
+        </a>
+        <a
+          href="https://github.com/ville-kuusela"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="p-2.5 rounded-full bg-card text-off-black hover:text-accent transition-colors"
+          aria-label="Github"
+        >
+          <Github className="w-5 h-5" />
         </a>
       </div>
     </div>

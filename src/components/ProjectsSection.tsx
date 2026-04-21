@@ -6,6 +6,7 @@ interface Project {
   description: string;
   tech: string[];
   url?: string;
+  github?: string;
 }
 
 const projects: Project[] = [
@@ -18,7 +19,7 @@ const projects: Project[] = [
   {
     name: "Beat Builder",
     description:
-      "Rumpusekvensserisovellus, jolla voi luoda halutunlaisia komppeja esimerkiksi soittimien soiton harjoittelun taustalle.",
+      "Rumpusekvensserisovellus, jolla voi luoda halutunlaisia rumpukomppeja esimerkiksi soittimien soiton harjoittelun taustalle.",
     tech: ["Nuxt", "Tailwind CSS", "Vercel"],
     url: "https://beat-builder-online.vercel.app/",
   },
@@ -57,7 +58,7 @@ const ProjectsSection = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-accent hover:text-accent/80 transition-colors shrink-0"
-                  aria-label={`View ${project.name}`}
+                  aria-label={`Avaa ${project.name}`}
                 >
                   <ExternalLink className="size-5" />
                 </a>
@@ -76,6 +77,18 @@ const ProjectsSection = () => {
                 </Badge>
               ))}
             </div>
+            {project.github && (
+              <div className="mt-3">
+                <a
+                href={project.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-off-black hover:text-off-black/80 transition-colors underline shrink-0 text-sm"
+              >
+                Github
+              </a>
+              </div>
+            )}
           </div>
         ))}
       </div>
