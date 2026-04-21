@@ -14,7 +14,7 @@ const AboutSection = () => {
           Minulla on eniten kokemusta Vuella ja Reactilla kehittämisestä, mukaan lukien Nuxt ja Next.js. Olen perehtynyt myös Laravel-ekosysteemin, jonka kautta olen päässyt sukeltamaan myös backendin ja tietokantojen maailmaan.
         </p>
         <p>
-          Ohjelmistokehittäjänä tärkeimmät arvoni ovat luotettavuus ja laadukkuus. Minulle on tärkeää että työni jälki on hyvää ja koodini on tasokasta.
+          Ohjelmistokehittäjänä tärkeimmät arvoni ovat luotettavuus ja laadukkuus. Minulle on tärkeää että työni jälki on hyvää ja koodini on tasokasta. Työskentelen tehokkaasti sekä tiimien jäsenenä että myös itsenäisesti.
         </p>
       </div>
     </section>
