@@ -12,7 +12,7 @@ const Index = () => {
       subtitle: "Meiko Oy",
       period: "2023 eteenpäin",
       description:
-        "Työskentelen osana monipuolisia verkko- ja mobiilisovellusprojekteja, käyttäen sekä frontend- että backend-teknologioita. Olen työskennellyt sekä tiimien osana että myös itsenäisesti projekteja vetäen.",
+        "Työskentelen osana monipuolisia verkko- ja mobiilisovellusprojekteja, käyttäen sekä frontend- että backend-teknologioita. Olen työskennellyt sekä tiimien osana että myös itsenäisesti projektien teknisestä toteutuksesta vastaten.",
     },
   ];
 
