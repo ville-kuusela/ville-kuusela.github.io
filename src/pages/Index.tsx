@@ -10,9 +10,9 @@ const Index = () => {
     {
       title: "Ohjelmistokehittäjä",
       subtitle: "Meiko Oy",
-      period: "2023 eteenpäin",
+      period: "2023 - 2026",
       description:
-        "Työskentelen osana monipuolisia verkko- ja mobiilisovellusprojekteja, käyttäen sekä frontend- että backend-teknologioita. Olen työskennellyt sekä tiimien osana että myös itsenäisesti projektien teknisestä toteutuksesta vastaten.",
+        "Olin mukana monipuolisissa verkko- ja mobiilisovellusprojekteissa, käyttäen sekä frontend- että backend-teknologioita. Työskentelin sekä tiimien osana että myös itsenäisesti projektien teknisestä toteutuksesta vastaten.",
     },
   ];
 
